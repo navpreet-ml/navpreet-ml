@@ -85,16 +85,73 @@
             <div class="col-md-3">
               <p><span>Email:</span> <a href="mailto:navpreet.singh@mail.mcgill.ca">navpreet.singh@mail.mcgill.ca</a></p>
             </div>
-            
+           
           </div>
+          <!--<div>
+            <form name="htmlform" method="post" action="html_form_send.php">
+            <table width="450px">
+            </tr>
+            <tr>
+              <td valign="top">
+                <label for="first_name">First Name *</label>
+              </td>
+              <td valign="top">
+                  <input  type="text" name="first_name" maxlength="50" size="30">
+              </td>
+            </tr>
+ 
+            <tr>
+              <td valign="top"">
+                <label for="last_name">Last Name *</label>
+              </td>
+              <td valign="top">
+                <input  type="text" name="last_name" maxlength="50" size="30">
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <label for="email">Email Address *</label>
+              </td>
+              <td valign="top">
+                <input  type="text" name="email" maxlength="80" size="30">
+              </td>
+ 
+            </tr>
+            <tr>
+              <td valign="top">
+                <label for="telephone">Telephone Number</label>
+              </td>
+              <td valign="top">
+                <input  type="text" name="telephone" maxlength="30" size="30">
+              </td>
+            </tr>
+            <tr>
+              <td valign="top">
+                <label for="comments">Comments *</label>
+              </td>
+              <td valign="top">
+                <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+              </td>
+ 
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align:center">
+                <input type="submit" value="Submit">   ( <a href="html_form_send.php">HTML Form</a> )
+              </td>
+            </tr>
+            </table>
+            </form>
+          </div>
+        -->
+          
           <div class="row block-9">
             <div class="col-md-6 pr-md-5">
-              <form action="#">
+              <form action="sendemail.php">
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Your Name">
+                  <input type="text" class="form-control" placeholder="Name">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Your Email">
+                  <input type="text" class="form-control" placeholder="Email">
                 </div>
                 <div class="form-group">
                   <input type="text" class="form-control" placeholder="Subject">
@@ -108,9 +165,10 @@
               </form>
             
             </div>
-            <!--<div class="col-md-6" id="map"></div> -->
+            <div class="col-md-6" id="map"></div> 
           </div>
         </div>
+      
       </section>
       
       <footer class="ftco-footer ftco-bg-dark ftco-section">
